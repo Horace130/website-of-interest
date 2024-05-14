@@ -1,0 +1,302 @@
+body {
+  background-color: #011037;
+}
+.navbar {
+  width: 100%;
+  z-index: 100;
+  opacity: 10;
+  background-color: transparent;
+  position: fixed;
+}
+.imgespa img {
+  height: 100%;
+  width: 30%;
+}
+.nav-link {
+  color: #ffffff;
+}
+.dropdown-item {
+  background-color: white;
+  color: #011037;
+}
+.head {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(
+      to bottom,
+
+      rgba(255, 255, 255, 0.112),
+      rgb(0, 0, 0)
+    ),
+    url("DSC3278.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2%;
+}
+.head h1 {
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: rgb(255, 255, 255);
+}
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  text-shadow: rgb(217, 255, 0);
+  background-image: linear-gradient(
+      to bottom,
+
+      rgba(0, 0, 0, 0.676),
+      rgb(0, 0, 0)
+    ),
+    url("46-valentino-rossi_dsc6798galle-20210630020427.jpg");
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nowrap1 {
+  font-size: 140px;
+  animation: changeColor 1s linear infinite;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  text-align: center;
+}
+.nowrap2 {
+  font-size: 140px;
+  animation: changeColor 1s linear infinite;
+  font-weight: bold;
+  position: absolute;
+  top: 450px;
+  right: 20px;
+  text-align: center;
+}
+.nowrap3 {
+  font-size: 140px;
+  animation: changeColor 1s linear infinite;
+  font-weight: bold;
+  position: absolute;
+  top: 800px;
+  left: 20px;
+  text-align: center;
+}
+.nowrap4 {
+  font-size: 140px;
+  animation: changeColor 1s linear infinite;
+  font-weight: bold;
+  position: absolute;
+  top: 1200px;
+  right: 20px;
+  text-align: center;
+}
+.colo {
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  top: 27%;
+  margin: 5%;
+  flex-direction: column;
+  opacity: 70%;
+  padding: 2%;
+}
+.overlay h3 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.bikes img {
+  width: 100%;
+  margin-top: 25%;
+  opacity: 0.7;
+  border-radius: 2%;
+}
+
+.rambo {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  top: 13%;
+  margin: 2%;
+  top: 7%;
+}
+
+@keyframes changeColor {
+  0% {
+    color: yellow;
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: yellow;
+  }
+}
+.bg1 {
+  background-image: linear-gradient(
+      to bottom,
+
+      rgba(0, 0, 0, 0.79),
+      rgb(0, 0, 0)
+    ),
+    url("valentino-rossi-of-italy-and-petronas-yamaha-srt-rides-news-photo-1628185049.jpg");
+  height: 110vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.malaysia h1 {
+  padding: 5%;
+  margin: 0;
+}
+.card img {
+  object-fit: cover;
+}
+.card {
+  margin-top: 6%;
+}
+.card-text {
+  font-size: 25px;
+}
+.word {
+  font-weight: bold;
+  font-size: 60px;
+  color: rgba(200, 255, 0, 0.982);
+}
+.legend {
+  padding: 5%;
+  background-image: linear-gradient(
+      to bottom,
+
+      rgb(0, 0, 0),
+      rgba(55, 52, 52, 0.587)
+    ),
+    url("The-Most-Important-Parts-of-Your-Motorcycle-to-Know-About-9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bla {
+  justify-content: center;
+  display: flex;
+}
+.right img {
+  width: 100%;
+  border-radius: 2%;
+}
+.left {
+  color: yellow;
+  font-size: 20px;
+  text-align: start;
+  margin-top: 20%;
+}
+.te {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.top1 {
+  gap: 25%;
+}
+.top5 {
+  margin-bottom: 10%;
+  color: white;
+}
+.word2 {
+  padding: 2%;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.spon1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.315);
+  border-radius: 2%;
+}
+.white {
+  color: red;
+  text-align: center;
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.white h5 {
+  font-size: 90px;
+}
+.card {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(251, 243, 0, 0.882);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.project-overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(31, 34, 34, 0.662);
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.7;
+}
+.card:hover .project-overlay {
+  opacity: 0;
+  transition: 1s;
+  box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+}
+.goblok {
+  height: 110vh;
+  overflow: hidden;
+}
+.slick-prev {
+  opacity: 0;
+}
+.slick-next {
+  opacity: 0;
+}
+.single-item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+.warning {
+  text-shadow: 1px 1px 10px #ffffff, 1px 1px 10px #ff0000;
+}
+body {
+  margin-bottom: 10%;
+}
+body {
+  margin: 0%;
+}
